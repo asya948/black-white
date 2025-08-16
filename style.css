@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-.body{
-    font-family:"Poppins" , sans-serif;
+body{
+    font-family:"Ubuntu Condensed", sans-serif;
 }
 .section-padding{
     padding:20px;
@@ -21,14 +22,17 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
-.titel-small{
-     width: 106px;
-     height: 54px;
- }
-.title{
 
+    justify-content: space-between;
+}
+.title-small{
+  font-size:20px;
+ }
+
+
+
+.mt-2{
+    margin-top: 20px;
 }
 nav{
     width: 50%;
@@ -53,12 +57,45 @@ li {
         }
     }
 }
+.py-2{
+    padding: 20px;
+}
 .btn{
     width: 106px;
     height: 36px;
     top: 72px;
     left: 1306px;
 }
+.btn-2{
+    width: 438px;
+    height: 100px;
+
+    color: white;
+    background-color: black;
+}
+.radius-4x{
+    border-radius: 10px;
+}
 .j-between{
     justify-content: space-between;
+}
+.text-field {
+    width: 50%;
+}
+    h2 {
+        font-size: 80px;
+
+    p{
+        font-size: 40px;
+    }
+}
+
+.img-fluid{
+    width: 50%;
+    img{
+        width: 70%;
+    }
+}
+.description{
+    width: 50%;
 }
