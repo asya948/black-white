@@ -15,7 +15,6 @@ body{
 .container{
     max-width: 1200px;
     margin:auto;
-    background-color: rgba(249, 249, 248, 0.85);
     padding: 20px 0;
 
 }
@@ -27,6 +26,7 @@ body{
 }
 .title-small{
   font-size:20px;
+    color:#8F95A5;
  }
 
 
@@ -43,6 +43,9 @@ nav{
 }
 .my-2{
     padding: 20px;
+}
+.my-3{
+    padding: 30px;
 }
 li {
     list-style: none;
@@ -67,11 +70,15 @@ li {
     left: 1306px;
 }
 .btn-2{
-    width: 438px;
-    height: 100px;
-
+    width: 200px;
+    height: 50px;
     color: white;
-    background-color: black;
+    background-color:#263238 ;
+    &:hover{
+        background-color: dimgrey;
+        color: white;
+        border:none;
+    }
 }
 .radius-4x{
     border-radius: 10px;
@@ -83,19 +90,74 @@ li {
     width: 50%;
 }
     h2 {
-        font-size: 80px;
+        font-size: 70px;
 
     p{
         font-size: 40px;
     }
 }
-
+    .ml-2{
+        margin-left: 100px;
+    }
+    .padding{
+        padding: 10px;
+    }
+.text-center {
+    text-align: center;
+}
 .img-fluid{
-    width: 50%;
+    width: 45%;
     img{
         width: 70%;
     }
 }
 .description{
     width: 50%;
+}
+.title-large{
+    font-size: 50px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 8px;
+}
+
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 6 / span 6;
+    background-color:#F5F5F5;
+
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    background-color:#F5F5F5;
+
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 7;
+    background-color:#F5F5F5;
+
+}
+
+.div4 {
+    grid-column: span 6 / span 6;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    background-color:#F5F5F5;
+}
+.card{
+    width: 100%;
+    img{
+        width: 70%;
+    }
 }
