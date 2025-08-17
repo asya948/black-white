@@ -5,7 +5,7 @@
 
 **A responsive and clean web page built entirely with pure CSS.**
 
-[**➥ Live Demo**](https://sarah-petrosyan.github.io/Quality-handyman-service/)
+[**➥ Live Demo**](https://github.com/asya948)
 
 </div>
 
@@ -22,16 +22,16 @@ A simple, minimalist website with a black-and-white background, featuring a head
 
 ## Demo Screenshot
 
-![Desktop Demo](./1234.png)
+![Desktop Demo](img/1234.png))
 
 ---
 
 ## Getting Started
 
-Make sure you have [Git](https://git-scm.com/downloads) installed. Then run:
+Make sure you have [Git](https://github.com/asya948/black-white.git) installed. Then run:
 
 ```bash
-git clone https://github.com/asya948/Quality-handyman-service.git
+git clone 
 ```
 
 ---
