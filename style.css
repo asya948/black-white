@@ -95,7 +95,7 @@ li {
     justify-content: space-between;
 }
 .text-field {
-    width: 45%;
+    width: 50%;
 }
     h2 {
         font-size: 70px;
@@ -119,9 +119,7 @@ li {
         width: 60%;
     }
 }
-.description{
-    width: 50%;
-}
+
 .title-large{
     font-size: 50px;
 }
@@ -180,6 +178,4 @@ width: 370px;
         height: 45px;
         padding: 10px;
     }
-
-
 
