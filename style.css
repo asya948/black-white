@@ -174,3 +174,12 @@ li {
 .card-header{
 width: 370px;
 }
+
+    .form-control{
+        width: 290px;
+        height: 45px;
+        padding: 10px;
+    }
+
+
+
