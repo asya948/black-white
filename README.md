@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Quality handyman service
+# black-white
 
 **A responsive and clean web page built entirely with pure CSS.**
 
